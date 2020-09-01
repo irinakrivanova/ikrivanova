@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Neue Montreal';
-    src: url('assets/fonts/NeueMontreal-Regular.woff2') format('woff2'),
-        url('assets/fonts/NeueMontreal-Regular.woff') format('woff');
+    src: url('NeueMontreal-Regular.woff2') format('woff2'),
+        url('NeueMontreal-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'NeueBit';
-    src: url('assets/fonts/NeueBit-Bold.woff2') format('woff2'),
-        url('assets/fonts/NeueBit-Bold.woff') format('woff');
+    src: url('NeueBit-Bold.woff2') format('woff2'),
+        url('/NeueBit-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -19,11 +19,11 @@ h1{
     font-family: 'NeueBit';
     font-weight: bold;
     font-style: normal;
-    font-size: 137px;
+    font-size: 171px;
     width: 720px;
-    margin: 0 0 0 190px;
+    margin: 77px 0 0 190px;
 }
-h2{
+h2 {
     font-family: 'NeueBit';
     font-weight: bold;
     font-style: normal;
@@ -37,8 +37,50 @@ h3{
     font-style: normal;
     font-size: 24px;
     margin: 0 0 0 190px;
+    padding: 0 0 7px;
 }
 img{
     width: 776px;
     margin: 0 37px 0 470px; 
+    padding: 0 0 0 0;
+}
+.left {
+    text-align: left;
+    margin: 0 0 0 190px;
+}
+div{
+    position: absolute;
+    width: 145px;
+    height: 667px;
+    right: 0px;
+    top: 0px;
+    background-color: #C32C68;
+    z-index: -1;
+}
+
+.p + .p{
+    padding: 27px;
+    margin-inline: 30px;
+}
+h4{
+    display: inline-flex;
+}
+p{
+    display: inline-flex;
+}
+h4{
+    font-family: 'NeueBit';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 27px;
+    margin: 7px 0 0 190px;
+    padding: 0 0 0 7px;
+}
+p{
+    font-family: 'NeueBit';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+    width: 200px;
+    margin: 27px 0 0 190px;
 }
