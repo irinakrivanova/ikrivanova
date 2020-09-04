@@ -59,27 +59,26 @@ div{
 }
 
 .p + .p{
-    padding: 27px;
-    margin-inline: 30px;
+    margin-left: 70px;
 }
-h4{
-    display: inline-flex;
+.h4 + .h4{
+    margin-left: 70px;
 }
-p{
-    display: inline-flex;
-}
+
 h4{
     font-family: 'NeueBit';
     font-weight: bold;
     font-style: normal;
     font-size: 27px;
     margin: 7px 0 0 190px;
+    display: inline-flex;
 }
 p{
     font-family: 'NeueBit';
     font-weight: bold;
     font-style: normal;
-    font-size: 24px;
+    font-size: 17px;
     width: 200px;
     margin: 27px 0 0 190px;
+    display: inline-flex;
 }
