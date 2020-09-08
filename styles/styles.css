@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Neue Montreal';
-    src: url('/ikrivanova/fonts/NeueMontreal-Regular.woff2') format('woff2'),
-        url('/ikrivanova/fonts/NeueMontreal-Regular.woff') format('woff');
+    src: url('ikrivanova/fonts/NeueMontreal-Regular.woff2') format('woff2'),
+        url('ikrivanova/fonts/NeueMontreal-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: 'NeueBit';
-    src: url('/ikrivanova/fonts/NeueBit-Bold.woff2') format('woff2'),
+    src: url('ikrivanova/fonts/NeueBit-Bold.woff2') format('woff2'),
         url('ikrivanova/fonts/NeueBit-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
@@ -60,7 +60,7 @@ div{
 
 .p + .p{
     position: relative;
-    left: 90px;
+    left: 15px;
 
 }
 .h4 + .h4{
@@ -72,7 +72,7 @@ h4{
     font-family: 'NeueBit';
     font-weight: bold;
     font-style: normal;
-    font-size: 27px;
+    font-size: 20px;
     margin: 7px 0 0 190px;
     display: inline-flex;
 }
@@ -80,8 +80,40 @@ p{
     font-family: 'Neue Montreal';
     font-weight: normal;
     font-style: normal;
-    font-size: 17px;
+    font-size: 14px;
     width: 200px;
     margin: 27px 0 0 190px;
     display: inline-flex;
+}
+.projects{
+    display: inline-flex;
+    position: relative;
+    right: 90px;
+}
+
+.title{
+    font-family: 'NeueBit';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    padding-top: 3px;
+    margin-top: 0;
+} 
+
+.date{
+    font-family: 'NeueBit';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+}
+.description{
+    font-family: 'Neue Montreal';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    width: 200px;
+}
+
+.ul+.ul{
+    margin: 0 0 45px 45px;
 }
