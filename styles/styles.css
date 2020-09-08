@@ -59,10 +59,13 @@ div{
 }
 
 .p + .p{
-    margin-left: 70px;
+    position: relative;
+    left: 90px;
+
 }
 .h4 + .h4{
-    margin-left: 70px;
+    position: relative;
+    left: 90px;
 }
 
 h4{
@@ -74,8 +77,8 @@ h4{
     display: inline-flex;
 }
 p{
-    font-family: 'NeueBit';
-    font-weight: bold;
+    font-family: 'Neue Montreal';
+    font-weight: normal;
     font-style: normal;
     font-size: 17px;
     width: 200px;
