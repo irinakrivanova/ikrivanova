@@ -48,7 +48,7 @@ img{
     text-align: left;
     margin: 0 0 0 190px;
 }
-div{
+.sidebar{
     position: absolute;
     width: 145px;
     height: 667px;
